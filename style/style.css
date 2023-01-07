@@ -220,7 +220,7 @@
 /* footer style start */
 footer {
     margin-top: 130px;
-    background-color: black;
+    background-color: #151414;
     width: 100vw;
     height: 577px;
 }
@@ -246,19 +246,9 @@ footer {
     color: white;
     font-weight: 600;
     font-size: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
-input {
-    width: 325px;
-    height: 64px;
-    font-size: 18px;
-    padding: 0 20px;
-    margin-bottom: 30px;
-    border: 1px solid #fff;
-    background-color: black;
-    border-radius: 5px;
-}
 
 .footer-form {
     margin-top: 130px;
@@ -266,7 +256,24 @@ input {
 
 .footer-desc p {
     line-height: 150%;
+    margin-bottom: 10px;
 }
+.footer-desc .img1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+input {
+    width: 325px;
+    height: 64px;
+    font-size: 18px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    border: 1px solid #fff;
+    background-color: #151414;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
 .btn-subscribe{
     width: 160px;
     height: 64px;
