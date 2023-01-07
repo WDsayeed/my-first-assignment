@@ -6,12 +6,11 @@
 
 /* header style start*/
 .header {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url('../images/banner/banner2r.png');
-    /* position: relative; */
     display: flex;
-
+    gap: 100px;
 }
 
 .blank-div {
@@ -19,10 +18,12 @@
 }
 
 .header-div {
-    margin-top: -200px;
-    margin-left: 100px;
-    padding: 500px;
+
+     margin-top: -100px;
+    margin-left: 100px; 
+    padding: 400px; 
     text-align: right;
+    
 }
 
 .header-title {
@@ -35,8 +36,10 @@
     font-weight: 400;
     font-size: 16px;
     color: #444343;
-    padding-left: 30px;
+    line-height: 150%;
+    padding-left:60px;
     margin-bottom: 25px;
+    margin-left: 50px;
 }
 
 .btn-primary {
@@ -61,29 +64,27 @@
 
 .blog-section-container {
     display: flex;
-    gap: 73px;
-}
-
-.blog-img {
-    /* background-color: #FCDED3;
-    border-radius: 30px; */
-
+    gap: 250px;
+    width: 1200px;
+    height: 723px;
 }
 
 .blog-section-desc {
-    padding: 150px;
+    margin-top: 200px;
 }
 
 .blog-title {
     font-weight: 700;
     font-size: 40px;
+    margin-bottom: 20px;
+    padding-right: 100px;
 }
 
 .blog-desc {
     font-size: 16px;
     color: #444343;
-    padding: 30px 20px 20px 0px;
     line-height: 150%;
+    margin-bottom: 15px;
 }
 
 .blog-section-desc p {
@@ -95,7 +96,7 @@
     width: 30px;
     height: 30px;
     color: #16D887;
-}
+} 
 
 /* blog section style end */
 
@@ -125,4 +126,157 @@
     font-size: 25px;
 }
 
-/* plan section end */
+/* plan section style end */
+
+.my-goal-section{
+    width: 1400px;
+    height: 750px;
+    background-color:#e68fa2;
+    border-radius: 5px;
+    margin-bottom: 150px;
+    border: 2px solid #7a0a22;
+    /* padding: 100px; */
+     margin-left: 230px;
+    /* margin-right: 30px; */
+}
+.goal-container{
+    display: flex;
+    gap: 200px;
+}
+.my-goal-section h1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #420714;
+}
+.img-goal-div img{
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    border: 5px solid #7a0a22;
+    margin-top: 130px;
+    margin-left: 120px;
+}
+.goal-desc{
+    background-color: #eeaebc;
+    border: 5px solid #7a0a22;
+    border-radius: 20px;
+    width: 600px;
+    height: 450px;
+    margin-top: 130px;
+    color: #420714;
+}
+.goal-desc ul img{
+    width: 24px;
+    height: 24px;
+}
+.goal-desc ul li{
+    list-style: none;
+    margin-left: 125px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+/* linear gradient style start */
+.linear-container {
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-left: 300px;
+
+
+}
+
+.linear-item {
+    width: 1140px;
+    height: 300px;
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #F05B22);
+    border-radius: 5px;
+}
+
+.linear-item h1 {
+    font-size: 40px;
+    font-weight: bold;
+    width: 500px;
+    color: white;
+    margin-left: 64px;
+    padding: 35px 0;
+}
+
+.btn-linear {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 64px;
+}
+
+/* linear gradient style end */
+
+/* footer style start */
+footer {
+    margin-top: 130px;
+    background-color: black;
+    width: 100vw;
+    height: 577px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 330px;
+    margin-left: 230px;
+}
+.footer-desc h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.footer-desc {
+    color: white;
+    width: 485px;
+    height: 317px;
+    margin-top: 130px;
+}
+
+.footer-form h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 325px;
+    height: 64px;
+    font-size: 18px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    border: 1px solid #fff;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.footer-form {
+    margin-top: 130px;
+}
+
+.footer-desc p {
+    line-height: 150%;
+}
+.btn-subscribe{
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #Fff;
+    color:#F15B22;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+/* footer style end */
